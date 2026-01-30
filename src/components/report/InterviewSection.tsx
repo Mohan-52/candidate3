@@ -49,18 +49,18 @@ export const InterviewSection = ({
 
   return (
     <Card
-      className="border-0 shadow-card animate-fade-in overflow-hidden"
+      className="border-0 shadow-card hover:shadow-card-hover animate-fade-in overflow-hidden transition-all duration-300"
       style={{ animationDelay: type === "dsa" ? "0.2s" : "0.3s" }}
     >
-      <CardHeader className="border-b border-border/50 bg-muted/30">
+      <CardHeader className="border-b border-border/50 bg-muted/30 hover:bg-muted/40 transition-colors duration-300">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex items-center gap-3">
-            <div className={`flex h-10 w-10 items-center justify-center rounded-lg bg-muted ${iconColor}`}>
-              <Icon className="h-5 w-5" />
+          <div className="flex items-center gap-3 group">
+            <div className={`flex h-10 w-10 items-center justify-center rounded-lg bg-muted ${iconColor} group-hover:scale-110 transition-transform duration-300 shadow-md`}>
+              <Icon className="h-5 w-5 transition-transform duration-300 group-hover:brightness-125" />
             </div>
             <div>
-              <CardTitle className="text-lg">{title}</CardTitle>
-              <p className="text-sm text-muted-foreground">{subtitle}</p>
+              <CardTitle className="text-lg hover:text-primary transition-colors duration-300">{title}</CardTitle>
+              <p className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300">{subtitle}</p>
             </div>
           </div>
           <div className="flex flex-wrap gap-2">
@@ -121,24 +121,24 @@ export const InterviewSection = ({
               {insights.map((insight, index) => (
                 <div
                   key={index}
-                  className="rounded-lg border border-border/50 bg-muted/30 p-3"
+                  className="rounded-lg border border-border/50 bg-muted/30 p-3 hover:bg-muted/50 hover:border-primary/30 transition-all duration-300 hover:shadow-card cursor-pointer group"
                 >
-                  <p className="font-medium text-foreground">{insight.title}</p>
-                  <p className="mt-1 text-sm text-muted-foreground">{insight.description}</p>
+                  <p className="font-medium text-foreground group-hover:text-primary transition-colors duration-300">{insight.title}</p>
+                  <p className="mt-1 text-sm text-muted-foreground group-hover:text-foreground transition-colors duration-300">{insight.description}</p>
                 </div>
               ))}
             </div>
 
             {/* Recording link */}
-            <div className="mt-4 rounded-lg bg-primary/5 p-4">
+            <div className="mt-4 rounded-lg bg-primary/5 p-4 hover:bg-primary/10 transition-all duration-300 hover:shadow-card-hover group border border-primary/10 hover:border-primary/30">
               <div className="flex items-start gap-3">
-                <PlayCircle className="h-5 w-5 flex-shrink-0 text-primary" />
+                <PlayCircle className="h-5 w-5 flex-shrink-0 text-primary group-hover:scale-110 transition-transform duration-300" />
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-foreground">{recordingTitle}</p>
-                  <p className="text-xs text-muted-foreground">{recordingSubtitle}</p>
+                  <p className="text-sm font-medium text-foreground group-hover:text-primary transition-colors duration-300">{recordingTitle}</p>
+                  <p className="text-xs text-muted-foreground group-hover:text-foreground transition-colors duration-300">{recordingSubtitle}</p>
                 </div>
                 {recordingUrl ? (
-                  <Button variant="outline" size="sm" asChild>
+                  <Button variant="outline" size="sm" asChild className="hover:shadow-lg transition-all duration-300">
                     <a href={recordingUrl} target="_blank" rel="noopener noreferrer">
                       View
                     </a>
