@@ -6,112 +6,114 @@ import { InterviewerInsights } from "@/components/report/InterviewerInsights";
 import { ResourcesSection } from "@/components/report/ResourcesSection";
 
 const candidateData = {
-  name: "Siva Surya Teja Meka",
+  name: "Harshit Pandey",
   recommendation: "Strong Hire",
-  overallScore: 120.13,
-  codingScore: 92.13,
-  dsaScore: 8,
+  overallScore: 129.91,
+  codingScore: 100.91,
+  dsaScore: 6,
   resumeUrl:
-    "https://nw-forms-backend-media-static.s3.ap-south-1.amazonaws.com/ccbp_prod/media/upload/resume/1764159677183_Full-Stack%20Resume_1be5151c-78eb-4731-951a-d934ced0b76b.pdf",
+    "https://nw-forms-backend-media-static.s3.ap-south-1.amazonaws.com/ccbp_prod/media/upload/resume/1764039923120_Harshit_Pandey_MNNIT_fce91779-708c-4c5c-b529-b02bf830f6e6.pdf",
   topinReportUrl:
-    "https://config.topin.tech/candidate-statistics/440f624f-e7c2-4c45-b0e4-1f4c56487eda/4a0fceae-2ecd-44eb-9bd6-fd587be89684",
+    "https://config.topin.tech/candidate-statistics/0465f9d9-ed0f-402e-8d4f-d9d07688f124/653bf935-af9d-42b3-ba10-0c3bedb704b6",
 };
 
 const tr1Data = {
   type: "dsa" as const,
   title: "TR1 – DSA Interview",
-  subtitle: "Two Problems | Logic, Optimization, Edge-Case Handling",
-  interviewer: "Asish Kumar Upadhyay",
-  duration: "46 Minutes",
+  subtitle: "Advanced String & Array Problems | Optimal Thinking",
+  interviewer: "Praveena",
+  duration: "1 Hour 11 Minutes",
   focusAreas: [
-    "Arrays & Strings",
-    "Logic Building",
-    "Optimization",
+    "String Manipulation",
+    "Array Partitioning",
+    "Two-Pointer Techniques",
     "Edge-Case Handling",
-    "Coding on LeetCode-style problems",
+    "Optimization",
   ],
-  questions: ["Vowels of All Substrings", "Removing Stars from a String"],
+  questions: [
+    "Take K of Each Character From Left and Right",
+    "Ways to Split Array Into Good Subarrays",
+  ],
   insights: [
     {
-      title: "Logical Thinking",
+      title: "Optimization Thinking",
       description:
-        "Shows strong command in identifying patterns and solving string & array-based challenges efficiently.",
+        "Showed the ability to convert brute-force logic into optimal solutions using two-pointer and prefix-based strategies.",
     },
     {
-      title: "Time Complexity Awareness",
+      title: "Edge-Case Identification",
       description:
-        "Understands how to optimize brute-force solutions into linear or near-linear time.",
+        "Handled boundary cases effectively, especially in string-window and split-based problems.",
     },
     {
-      title: "Coding Fluency",
+      title: "Clarity in Communication",
       description:
-        "Writes clean and structured code while explaining thought process at each step.",
+        "Explained each step with clarity, making the thought process easy to follow.",
     },
   ],
   recordingTitle: "NxtWave Employability – DSA Interview",
-  recordingSubtitle: "Siva Surya Teja Meka – Recording Session",
+  recordingSubtitle: "Harshit Pandey – Recording Session",
   recordingUrl:
-    "https://drive.google.com/file/d/1rAwvXBDjt9Bs62lDVPR39I9UmEAA0tRZ/view?usp=sharing",
+    "https://drive.google.com/file/d/16eAoSH1fCEzrT4aTmVP6xz8JaJAkd2XN/view?usp=sharing",
 };
 
 const tr2Data = {
   type: "technical" as const,
   title: "TR2 – Technical & System Interview",
-  subtitle: "Full-Stack + System + Deployment | Practical understanding",
-  interviewer: "Pavani",
-  duration: "58 Minutes",
+  subtitle: "Full Stack | Practical Scenarios | Real World Systems",
+  interviewer: "Archita Sundaray",
+  duration: "1 Hour",
   focusAreas: [
-    "DSA: Basic arrays, logic, debugging",
-    "HTML & CSS",
-    "JavaScript & React",
-    "Node & Express",
-    "Database & Schema Design",
-    "Deployment / DevOps",
-    "CS Fundamentals",
+    "DSA basics (arrays, logic, complexity)",
+    "Semantic HTML, Box Model, Flexbox",
+    "JavaScript + React Internals",
+    "Node.js + Express + Middleware",
+    "Database Schema Design & Indexing",
+    "Networking Basics & Reliability",
   ],
   questions: [
-    "Rotate an array by K steps. Explain approach, edge cases, and time complexity.",
-    "Design RESTful APIs for a To-Do application with authentication.",
-    "Explain controlled components, useState, useEffect, and when to use useReducer.",
-    "Explain DOCTYPE, semantic HTML, CSS box model, and benefits of Flexbox.",
-    "Explain MERN deployment on a virtual machine end-to-end.",
+    "Explain WebSockets and why they are better than polling.",
+    "Solve: Product of Array Except Self (brute force + optimized).",
+    "Explain semantic HTML and accessibility benefits.",
+    "Design a paginated GET API for product listings.",
+    "Implement a stack using only queues with proper complexities.",
   ],
   insights: [
     {
-      title: "Full-Stack Practical Skills",
+      title: "Full-Stack Strength",
       description:
-        "Demonstrates strong understanding of both frontend and backend concepts with real-world project exposure.",
+        "Demonstrated solid understanding across frontend, backend, and database concepts with clarity.",
     },
     {
-      title: "Structured System Thinking",
+      title: "Strong DSA Fundamentals",
       description:
-        "Explains API design, authentication flow, and deployment steps with clarity.",
+        "Logical and systematic approach to array transformations and edge-case handling.",
     },
     {
-      title: "Frontend Expertise",
+      title: "System Design Awareness",
       description:
-        "Strong grasp on React fundamentals, component design, and state management.",
+        "Understands API structuring, pagination, and scalability considerations.",
     },
   ],
   recordingTitle: "NxtWave Employability – Technical Interview Round 2",
-  recordingSubtitle: "Siva Surya Teja Meka – Recording Session",
+  recordingSubtitle: "Harshit Pandey – Recording Session",
   recordingUrl:
-    "https://drive.google.com/file/d/1mrWTCbGDS_Gqcm2lLoNO2KBAp3mAOb7d/view?usp=sharing",
+    "https://drive.google.com/file/d/1AXr2Kazne3xPfyL7C7XsOAfGeAz4qmum/view?usp=sharing",
 };
 
 const strengths = [
-  "Good frontend and backend practical understanding with MERN stack knowledge.",
-  "Strong problem-solving fundamentals for basic to mid-level DSA.",
-  "Good debugging skills and systematic approach to logic questions.",
-  "Clear explanation of system workflows and API interactions.",
-  "Understands deployment pipeline and environment setups.",
+  "Strong grasp of array and string-based DSA problems.",
+  "Excellent understanding of semantic HTML, accessibility, and modern CSS layouts.",
+  "Deep knowledge of JavaScript fundamentals and React internals.",
+  "Clear breakdown of backend concepts like middleware and async handling.",
+  "Good understanding of schema design and indexing strategies in databases.",
 ];
 
 const improvements = [
-  "Strengthen advanced DSA patterns like DP, sliding window, and graph algorithms.",
-  "Improve depth in database query optimization & indexing.",
-  "Practice more system design for scalable architectures.",
-  "Work on writing more production-ready backend code.",
+  "Increase exposure to large-scale system design patterns.",
+  "Strengthen advanced React patterns and performance optimization.",
+  "Practice more complex DSA problems involving graphs and DP.",
+  "Improve backend scalability strategies including caching and load handling.",
 ];
 
 const resources = [
@@ -130,13 +132,13 @@ const resources = [
   {
     title: "DSA Interview Recording",
     description: "TR1 Interview Recording",
-    url: "https://drive.google.com/file/d/1rAwvXBDjt9Bs62lDVPR39I9UmEAA0tRZ/view?usp=sharing",
+    url: tr1Data.recordingUrl,
     type: "recording" as const,
   },
   {
     title: "Technical Interview Recording",
     description: "TR2 Interview Recording",
-    url: "https://drive.google.com/file/d/1mrWTCbGDS_Gqcm2lLoNO2KBAp3mAOb7d/view?usp=sharing",
+    url: tr2Data.recordingUrl,
     type: "recording" as const,
   },
 ];
@@ -145,7 +147,6 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
-        {/* Header */}
         <HeaderSection
           candidateName={candidateData.name}
           recommendation={candidateData.recommendation}
@@ -154,7 +155,6 @@ const Index = () => {
           topinReportUrl={candidateData.topinReportUrl}
         />
 
-        {/* Content sections */}
         <div className="mt-8 space-y-8">
           <ScoreAnalytics
             overallScore={candidateData.overallScore}
@@ -172,9 +172,9 @@ const Index = () => {
 
           <InterviewerInsights
             hiringSignal="Strong Hire"
-            confidenceLevel="High"
-            industryReadiness="Job-Ready"
-            summary="Siva Surya Teja Meka demonstrates strong practical engineering skills with a solid understanding of full-stack development. Both interviews highlight clear communication, structured thinking, and real-world deployment knowledge. With further practice in advanced DSA and backend depth, he is capable of performing efficiently in production environments."
+            confidenceLevel="High (92%)"
+            industryReadiness="Job Ready"
+            summary="Harshit Pandey demonstrated strong fundamental and practical engineering skills. His clarity in problem-solving, full-stack understanding, and structured approach to both DSA and system design make him a reliable and industry-ready candidate. Both interviewers rated him highly for communication, coding, and technical depth."
           />
 
           <ResourcesSection resources={resources} />
