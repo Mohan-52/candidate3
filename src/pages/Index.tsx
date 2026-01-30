@@ -6,104 +6,112 @@ import { InterviewerInsights } from "@/components/report/InterviewerInsights";
 import { ResourcesSection } from "@/components/report/ResourcesSection";
 
 const candidateData = {
-  name: "Harsh Mishra",
+  name: "Siva Surya Teja Meka",
   recommendation: "Strong Hire",
-  overallScore: 146.96,
-  codingScore: 118.96,
-  dsaScore: 5,
-  resumeUrl: "https://nw-forms-backend-media-static.s3.ap-south-1.amazonaws.com/ccbp_prod/media/upload/resume/1763365853009_HarshMishra_22bec048_7e6a3eb7-d781-42d3-82a1-7657d7e96350.pdf",
-  topinReportUrl: "https://config.topin.tech/candidate-statistics/f6abffac-0fcb-48ac-9db0-847e5fbaaac9/dfd8532d-7f58-458c-af4b-c27e5affacf0",
+  overallScore: 120.13,
+  codingScore: 92.13,
+  dsaScore: 8,
+  resumeUrl:
+    "https://nw-forms-backend-media-static.s3.ap-south-1.amazonaws.com/ccbp_prod/media/upload/resume/1764159677183_Full-Stack%20Resume_1be5151c-78eb-4731-951a-d934ced0b76b.pdf",
+  topinReportUrl:
+    "https://config.topin.tech/candidate-statistics/440f624f-e7c2-4c45-b0e4-1f4c56487eda/4a0fceae-2ecd-44eb-9bd6-fd587be89684",
 };
 
 const tr1Data = {
   type: "dsa" as const,
   title: "TR1 – DSA Interview",
-  subtitle: "45–90 Minutes | Approach clarity, live coding, edge-case handling",
-  interviewer: "Mostafijur Rahaman",
-  duration: "1 Hour 11 Minutes",
+  subtitle: "Two Problems | Logic, Optimization, Edge-Case Handling",
+  interviewer: "Asish Kumar Upadhyay",
+  duration: "46 Minutes",
   focusAreas: [
-    "Problem-Solving Approach",
-    "Live Coding",
+    "Arrays & Strings",
+    "Logic Building",
+    "Optimization",
     "Edge-Case Handling",
-    "DSA Coding",
-    "Communication",
+    "Coding on LeetCode-style problems",
   ],
-  questions: [
-    "Minimum Number of Operations to Move All Balls to Each Box",
-    "Maximum Subarray Sum With One Deletion",
-  ],
+  questions: ["Vowels of All Substrings", "Removing Stars from a String"],
   insights: [
     {
-      title: "Problem-Solving Approach",
-      description: "Demonstrated structured thinking, breaking down complex problems into manageable sub-problems before coding.",
+      title: "Logical Thinking",
+      description:
+        "Shows strong command in identifying patterns and solving string & array-based challenges efficiently.",
     },
     {
-      title: "Edge-Case Handling",
-      description: "Proactively identified edge cases and boundary conditions, showing defensive programming awareness.",
+      title: "Time Complexity Awareness",
+      description:
+        "Understands how to optimize brute-force solutions into linear or near-linear time.",
     },
     {
-      title: "Communication Clarity",
-      description: "Articulated thought process clearly while coding, making it easy to follow the solution development.",
+      title: "Coding Fluency",
+      description:
+        "Writes clean and structured code while explaining thought process at each step.",
     },
   ],
   recordingTitle: "NxtWave Employability – DSA Interview",
-  recordingSubtitle: "Ashish Tandi – 2025/12/23 09:43 GMT+05:30",
-  recordingUrl: "https://drive.google.com/file/d/1kMFbZo1RbYWDRFKxXzZPCXsqmvpk1Fc1/view?usp=sharing",
+  recordingSubtitle: "Siva Surya Teja Meka – Recording Session",
+  recordingUrl:
+    "https://drive.google.com/file/d/1rAwvXBDjt9Bs62lDVPR39I9UmEAA0tRZ/view?usp=sharing",
 };
 
 const tr2Data = {
   type: "technical" as const,
   title: "TR2 – Technical & System Interview",
-  subtitle: "45–90 Minutes | Code ownership, project depth, system thinking",
-  interviewer: "Abhishek Sharma",
-  duration: "45 Minutes",
+  subtitle: "Full-Stack + System + Deployment | Practical understanding",
+  interviewer: "Pavani",
+  duration: "58 Minutes",
   focusAreas: [
-    "DSA & Algorithms",
-    "Git Commands",
+    "DSA: Basic arrays, logic, debugging",
     "HTML & CSS",
-    "Frontend Concepts",
-    "Backend Concepts",
-    "Database Queries",
+    "JavaScript & React",
+    "Node & Express",
+    "Database & Schema Design",
+    "Deployment / DevOps",
+    "CS Fundamentals",
   ],
   questions: [
-    "What data structure is used internally in a hashmap?",
-    "How does JavaScript handle async operations though it is single-threaded?",
-    "How do you push a new feature to an existing repository?",
-    "Why do we create indexes in databases?",
-    "Find the k-th smallest element in an array.",
+    "Rotate an array by K steps. Explain approach, edge cases, and time complexity.",
+    "Design RESTful APIs for a To-Do application with authentication.",
+    "Explain controlled components, useState, useEffect, and when to use useReducer.",
+    "Explain DOCTYPE, semantic HTML, CSS box model, and benefits of Flexbox.",
+    "Explain MERN deployment on a virtual machine end-to-end.",
   ],
   insights: [
     {
-      title: "Full-Stack Understanding",
-      description: "Shows comprehensive knowledge across the stack, from frontend frameworks to database optimization.",
+      title: "Full-Stack Practical Skills",
+      description:
+        "Demonstrates strong understanding of both frontend and backend concepts with real-world project exposure.",
     },
     {
-      title: "Real-World Scenario Handling",
-      description: "Applied theoretical concepts to practical scenarios effectively, demonstrating industry readiness.",
+      title: "Structured System Thinking",
+      description:
+        "Explains API design, authentication flow, and deployment steps with clarity.",
     },
     {
-      title: "System Thinking",
-      description: "Understood how different components interact in a system architecture context.",
+      title: "Frontend Expertise",
+      description:
+        "Strong grasp on React fundamentals, component design, and state management.",
     },
   ],
-  recordingTitle: "NxtWave Employability – Interview Round 2",
-  recordingSubtitle: "Harsh Mishra – 2025/12/28 11:42 GMT+05:30",
-  recordingUrl: "https://drive.google.com/file/d/12yMyWFxKPLsFDCNRRv_Cu2AyU0eltkCD/view?usp=sharing",
+  recordingTitle: "NxtWave Employability – Technical Interview Round 2",
+  recordingSubtitle: "Siva Surya Teja Meka – Recording Session",
+  recordingUrl:
+    "https://drive.google.com/file/d/1mrWTCbGDS_Gqcm2lLoNO2KBAp3mAOb7d/view?usp=sharing",
 };
 
 const strengths = [
-  "Excellent coding proficiency with strong fundamentals in multiple programming paradigms",
-  "Clear and articulate communication during technical discussions",
-  "Strong understanding of full-stack development concepts and best practices",
-  "Proactive in identifying edge cases and writing defensive code",
-  "Good grasp of database concepts including indexing and query optimization",
+  "Good frontend and backend practical understanding with MERN stack knowledge.",
+  "Strong problem-solving fundamentals for basic to mid-level DSA.",
+  "Good debugging skills and systematic approach to logic questions.",
+  "Clear explanation of system workflows and API interactions.",
+  "Understands deployment pipeline and environment setups.",
 ];
 
 const improvements = [
-  "Deepen expertise in advanced data structures and algorithms for complex problem-solving",
-  "Practice more competitive programming to improve DSA scores",
-  "Explore system design concepts for scalability and architecture understanding",
-  "Build more end-to-end projects to strengthen practical implementation experience",
+  "Strengthen advanced DSA patterns like DP, sliding window, and graph algorithms.",
+  "Improve depth in database query optimization & indexing.",
+  "Practice more system design for scalable architectures.",
+  "Work on writing more production-ready backend code.",
 ];
 
 const resources = [
@@ -121,14 +129,14 @@ const resources = [
   },
   {
     title: "DSA Interview Recording",
-    description: "TR1 Interview with Mostafijur Rahaman – Dec 23, 2025",
-    url: "https://drive.google.com/file/d/1kMFbZo1RbYWDRFKxXzZPCXsqmvpk1Fc1/view?usp=sharing",
+    description: "TR1 Interview Recording",
+    url: "https://drive.google.com/file/d/1rAwvXBDjt9Bs62lDVPR39I9UmEAA0tRZ/view?usp=sharing",
     type: "recording" as const,
   },
   {
     title: "Technical Interview Recording",
-    description: "TR2 Interview with Abhishek Sharma – Dec 28, 2025",
-    url: "https://drive.google.com/file/d/12yMyWFxKPLsFDCNRRv_Cu2AyU0eltkCD/view?usp=sharing",
+    description: "TR2 Interview Recording",
+    url: "https://drive.google.com/file/d/1mrWTCbGDS_Gqcm2lLoNO2KBAp3mAOb7d/view?usp=sharing",
     type: "recording" as const,
   },
 ];
@@ -148,36 +156,30 @@ const Index = () => {
 
         {/* Content sections */}
         <div className="mt-8 space-y-8">
-          {/* Score Analytics */}
           <ScoreAnalytics
             overallScore={candidateData.overallScore}
             codingScore={candidateData.codingScore}
             dsaScore={candidateData.dsaScore}
           />
 
-          {/* Interview Sections */}
           <InterviewSection {...tr1Data} />
           <InterviewSection {...tr2Data} />
 
-          {/* Strengths & Improvements */}
           <StrengthsAndImprovements
             strengths={strengths}
             improvements={improvements}
           />
 
-          {/* Interviewer Insights */}
           <InterviewerInsights
             hiringSignal="Strong Hire"
-            confidenceLevel="High (92%)"
-            industryReadiness="Production Ready"
-            summary="Harsh Mishra demonstrates exceptional coding abilities and a solid understanding of full-stack development. His communication skills during technical discussions were clear and professional. While there's room for growth in advanced algorithmic thinking, his current skill set and learning trajectory make him an excellent candidate for mid-level engineering roles. Both interviewers expressed high confidence in his ability to contribute meaningfully to a development team from day one."
+            confidenceLevel="High"
+            industryReadiness="Job-Ready"
+            summary="Siva Surya Teja Meka demonstrates strong practical engineering skills with a solid understanding of full-stack development. Both interviews highlight clear communication, structured thinking, and real-world deployment knowledge. With further practice in advanced DSA and backend depth, he is capable of performing efficiently in production environments."
           />
 
-          {/* Resources */}
           <ResourcesSection resources={resources} />
         </div>
 
-        {/* Footer */}
         <footer className="mt-12 border-t border-border pt-6 text-center">
           <p className="text-sm text-muted-foreground">
             Report generated by NxtWave Employability Assessment Platform
